@@ -1,0 +1,10 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "cameras/fixed_boom.json"
+        }
+    ]
+}

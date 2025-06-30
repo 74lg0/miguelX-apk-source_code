@@ -1,0 +1,16 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/pig.json"
+        },
+        {
+            "path": "loot_tables/chests/ruined_portal.json"
+        },
+        {
+            "path": "recipes/lodestone.json"
+        }
+    ]
+}

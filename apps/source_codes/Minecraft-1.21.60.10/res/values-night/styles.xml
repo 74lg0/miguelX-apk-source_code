@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashScreen.DayNight" parent="@style/Base.Theme.SplashScreen" />
+    <style name="Braze.Push.InlineImage.TextArea.Header.AppIcon" parent="@style/Braze.Push.InlineImage.TextArea.Header">
+        <item name="android:layout_width">18.0dip</item>
+        <item name="android:layout_height">18.0dip</item>
+        <item name="android:layout_marginRight">3.0dip</item>
+        <item name="android:tint">#ff777777</item>
+        <item name="android:contentDescription">@null</item>
+    </style>
+</resources>

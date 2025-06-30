@@ -1,0 +1,13 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "textures/ui/aimassist_block_highlight.png"
+        },
+        {
+            "path": "textures/ui/aimassist_entity_highlight.png"
+        }
+    ]
+}
