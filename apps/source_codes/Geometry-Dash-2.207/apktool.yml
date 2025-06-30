@@ -1,0 +1,27 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Geometry-Dash-2.207.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/version-control-info.textproto
+- png
+- ogg
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '34'
+sharedLibrary: false
+sparseResources: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0-dirty
+versionInfo:
+  versionCode: '40'
+  versionName: 2.2.143

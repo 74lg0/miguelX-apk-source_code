@@ -22,12 +22,12 @@ If anything is missing or incorrect, feel free to contact the developer [MiguelX
 miguelX-apk-source_code/
 ├── README.md
 ├── apps/
-│   ├── source_codes/
-│   │   ├── Minecraft-1.21.60.10/
-│   │   ├── RedlineRush-Mod/
-│   │   └── ...
-│   └── hashes/
-│       └── hashes_by_app.md
+│   └── source_codes/
+│       ├── Minecraft-1.21.60.10/
+│       ├── RedlineRush-Mod/
+│       └── ...
+│
+│
 └── VirusTotal_Reports/
     └── analysis_links.md
 
