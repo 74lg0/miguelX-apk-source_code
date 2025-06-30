@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Experimental resource pack for Spring Drop 2025 content",
+    "name": "Spring Drop 2025",
+    "uuid": "60985768-1be6-483e-80ed-2fc9f975d936",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      60
+    ]
+  },
+  "modules": [
+    {
+      "description": "Experimental resource pack for Spring Drop 2025 content",
+      "type": "resources",
+      "uuid": "d614e407-98f6-4396-938c-7e9ca2e4422d",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}

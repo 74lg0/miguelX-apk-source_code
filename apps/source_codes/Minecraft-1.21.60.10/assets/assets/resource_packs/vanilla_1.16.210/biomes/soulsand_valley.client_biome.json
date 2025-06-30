@@ -1,0 +1,15 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "soulsand_valley"
+    },
+    "components": {
+      "minecraft:ambient_sounds": {
+        "addition": "ambient.soulsand_valley.additions",
+        "loop": "ambient.soulsand_valley.loop",
+        "mood": "ambient.soulsand_valley.mood"
+      }
+    }
+  }
+}

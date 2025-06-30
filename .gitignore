@@ -1,0 +1,6 @@
+lib/
+original/
+*.apk
+*.dex
+*.log
+*.tmp

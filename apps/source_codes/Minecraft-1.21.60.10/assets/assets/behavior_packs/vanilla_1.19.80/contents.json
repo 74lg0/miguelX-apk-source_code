@@ -1,0 +1,40 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "entities/boat.json"
+        },
+        {
+            "path": "entities/chest_boat.json"
+        },
+        {
+            "path": "entities/panda.json"
+        },
+        {
+            "path": "entities/polar_bear.json"
+        },
+        {
+            "path": "entities/witch.json"
+        },
+        {
+            "path": "recipes/acacia_fence.json"
+        },
+        {
+            "path": "recipes/birch_fence.json"
+        },
+        {
+            "path": "recipes/dark_oak_fence.json"
+        },
+        {
+            "path": "recipes/jungle_fence.json"
+        },
+        {
+            "path": "recipes/oak_fence.json"
+        },
+        {
+            "path": "recipes/spruce_fence.json"
+        }
+    ]
+}

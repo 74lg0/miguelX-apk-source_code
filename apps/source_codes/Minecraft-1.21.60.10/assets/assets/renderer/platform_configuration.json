@@ -1,0 +1,509 @@
+{
+  "android": {
+    "tiers": {
+      "3": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "low",
+            "point_light_shadows": "off",
+            "volumetric_fog": "low",
+            "bloom": false,
+            "point_light_lodding": "low",
+            "reflections": "low",
+            "upscaling_mode": "bilinear"
+            //"resolution": "480p",
+            //"chunk_render_distance": 4
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "low",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "low",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear"
+            //"resolution": "480p",
+            //"chunk_render_distance": 4
+          }
+        }
+      ],
+      "4": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "low",
+            "volumetric_fog": "low",
+            "bloom": true,
+            "point_light_lodding": "low",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear"
+            //"resolution": "480p",
+            //"chunk_render_distance": 4
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "low",
+            "volumetric_fog": "medium",
+            "bloom": true,
+            "point_light_lodding": "medium",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear"
+            //"resolution": "720p",
+            //"chunk_render_distance": 6
+          }
+        }
+      ],
+      "5": [
+        {
+          "name": "Performance",
+          "lods": {
+            "shadows": "medium",
+            "point_light_shadows": "low",
+            "volumetric_fog": "medium",
+            "bloom": true,
+            "point_light_lodding": "medium",
+            "reflections": "medium",
+            "upscaling_mode": "bilinear"
+            //"resolution": "720p",
+            //"chunk_render_distance": 6
+          }
+        },
+        {
+          "name": "Quality",
+          "lods": {
+            "shadows": "high",
+            "point_light_shadows": "low",
+            "volumetric_fog": "medium",
+            "bloom": true,
+            "point_light_lodding": "medium",
+            "reflections": "high",
+            "upscaling_mode": "taau"
+            //"resolution": "720p",
+            //"chunk_render_distance": 8
+          }
+        }
+      ]
+    },
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.android.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.android.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.android.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.android.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.android.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.android.json"
+    }
+  },
+  "chrome_os": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": false,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode": "taau"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "ultra",
+          "point_light_shadows": "ultra",
+          "volumetric_fog": "ultra",
+          "bloom": true,
+          "point_light_lodding": "ultra",
+          "reflections": "ultra",
+          "upscaling_mode": "taau"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.json"
+    }
+  },
+  "switch_docked": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode": "bilinear"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "medium",
+          "point_light_shadows": "medium",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "medium",
+          "reflections": "medium",
+          "upscaling_mode": "bilinear"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.switch_docked.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.switch_docked.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.switch_docked.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.switch_docked.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.switch_docked.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.switch_docked.json"
+    }
+  },
+  "switch_handheld": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode": "bilinear"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "medium",
+          "point_light_shadows": "medium",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "medium",
+          "reflections": "medium",
+          "upscaling_mode": "bilinear"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.switch_handheld.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.switch_handheld.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.switch_handheld.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.switch_handheld.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.switch_handheld.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.switch_handheld.json"
+    }
+  },
+  "console_gen8": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode":"bilinear"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "medium",
+          "upscaling_mode":"bilinear"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console_gen8.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console_gen8.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console_gen8.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console_gen8.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console_gen8.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.console_gen8.json"
+    }
+  },
+  "console_gen8_5": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode":"bilinear"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "medium",
+          "point_light_shadows": "medium",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "medium",
+          "upscaling_mode":"bilinear"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console_gen8_5.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console_gen8_5.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console_gen8_5.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console_gen8_5.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console_gen8_5.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.console_gen8_5.json"
+    }
+  },
+  "console_gen9": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode":"bilinear"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "high",
+          "point_light_shadows": "medium",
+          "volumetric_fog": "medium",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "high",
+          "upscaling_mode":"taau"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.console_gen9.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.console_gen9.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.console_gen9.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.console_gen9.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.console_gen9.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.console_gen9.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.console_gen9.json"
+    }
+  },
+  "ios": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": false,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode": "taau"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "ultra",
+          "point_light_shadows": "ultra",
+          "volumetric_fog": "ultra",
+          "bloom": true,
+          "point_light_lodding": "ultra",
+          "reflections": "ultra",
+          "upscaling_mode": "taau"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.ios.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.ios.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.ios.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.ios.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.ios.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.ios.json"
+    }
+  },
+  "pc": {
+    "presets": [
+      {
+        "name": "Performance",
+        "lods": {
+          "shadows": "low",
+          "point_light_shadows": "low",
+          "volumetric_fog": "low",
+          "bloom": true,
+          "point_light_lodding": "low",
+          "reflections": "low",
+          "upscaling_mode": "taau"
+        }
+      },
+      {
+        "name": "Quality",
+        "lods": {
+          "shadows": "ultra",
+          "point_light_shadows": "ultra",
+          "volumetric_fog": "ultra",
+          "bloom": true,
+          "point_light_lodding": "ultra",
+          "reflections": "ultra",
+          "upscaling_mode": "taau"
+        }
+      }
+    ],
+    "shadow_config": {
+      "file": "shadow_configs/shadow_configuration.pc.json"
+    },
+    "point_light_shadow_config": {
+      "file": "point_light_shadow_configs/point_light_shadow_configuration.pc.json"
+    },
+    "volumetric_fog_config": {
+      "file": "volumetric_fog_configs/volumetric_fog_configuration.pc.json"
+    },
+    "bloom_config": {
+      "file": "bloom_configs/bloom_configuration.pc.json"
+    },
+    "point_light_loding_config": {
+      "file": "point_light_configs/point_light_configuration.pc.json"
+    },
+    "reflection_config": {
+      "file": "reflection_configs/reflection_configuration.pc.json"
+    },
+    "upscaling_config": {
+      "file": "upscaling_configs/upscaling_configuration.pc.json"
+    }
+  }
+}

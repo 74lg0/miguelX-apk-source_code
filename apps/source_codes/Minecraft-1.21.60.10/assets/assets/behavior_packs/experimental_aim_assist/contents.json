@@ -1,0 +1,13 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "aim_assist/categories/categories.json"
+        },
+        {
+            "path": "aim_assist/presets/aim_assist_preset.json"
+        }
+    ]
+}

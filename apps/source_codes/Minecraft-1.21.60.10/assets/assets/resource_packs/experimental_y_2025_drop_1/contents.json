@@ -1,0 +1,46 @@
+{
+    "content": [
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "attachables/saddle.json"
+        },
+        {
+            "path": "entity/pig.entity.json"
+        },
+        {
+            "path": "models/entity/pig.v3.geo.json"
+        },
+        {
+            "path": "models/entity/saddle.geo.json"
+        },
+        {
+            "path": "particles/azalea_leaves_particle.json"
+        },
+        {
+            "path": "particles/biome_tinted_leaves_particle.json"
+        },
+        {
+            "path": "render_controllers/pig.v3.render_controllers.json"
+        },
+        {
+            "path": "render_controllers/saddle.render_controllers.json"
+        },
+        {
+            "path": "textures/entity/saddle.png"
+        },
+        {
+            "path": "textures/entity/pig/pig_cold.png"
+        },
+        {
+            "path": "textures/entity/pig/pig_v3.png"
+        },
+        {
+            "path": "textures/entity/pig/pig_warm.png"
+        },
+        {
+            "path": "textures/particle/biome_tinted_leaves_atlas.png"
+        }
+    ]
+}
