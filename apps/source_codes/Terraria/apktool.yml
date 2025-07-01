@@ -1,0 +1,29 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Terraria.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- assets/bin/Data/data.unity3d
+- assets/bin/Data/resources.resource
+- assets/bin/Data/unity_app_guid
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '33'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  billing.properties: '8'
+  stamp-cert-sha256: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.7.0-dirty
+versionInfo:
+  versionCode: '301087'
+  versionName: 1.4.4.9.5
